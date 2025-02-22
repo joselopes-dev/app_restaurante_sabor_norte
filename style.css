@@ -1,0 +1,41 @@
+h1 {
+    color: #000;
+}
+
+h3 {
+  color: rebeccapurple;
+}
+
+/*altura da nav*/
+#altnav {
+  height: 260px;
+}
+
+.centralizar {
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  /*imagem do titulo_central"Sabor do Norte*/
+    #imagem2 {
+      display: none;
+    }
+/*responsividade do texto do footer*/
+    #texto_responsivo {
+      font-size: 12px;
+    }
+/*Centralizar texto do direitos autorais*/
+    .centralizar {
+      text-align: center;
+      font-size: 12px;
+      color: #fff;
+    }
+/*Dimensionamento do Mapa*/
+    iframe {
+      width: 100%;
+      height: 200px;
+      justify-content: center;
+    }
+  }

@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Açaiteria</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      #imagem {
+        border-radius: 100%;
+      }
+
+      #texto1 {
+        text-align: justify;
+      }
+
+      #texto2 {
+        text-align: justify;
+      }
+
+    html {
+        margin: 230px 0px 0px 0px;
+    }
+
+    </style>
+
+    
+  </head>
+  <body>
+<header class="fixed-top">
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">Quem somos?</h4>
+          <p id="texto1" class="text-white">Nossa açaiteria oferece o melhor açaí da região, 
+            sempre fresco e cremoso! Contamos com um ambiente aconchegante e um atendimento 
+            gentil para garantir a melhor experiência. Além do tradicional açaí na tigela, 
+            servimos diversas combinações com frutas, coberturas e acompanhamentos deliciosos. 
+            Venha nos visitar e se deliciar! </p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <!-- Links Úteis -->
+          <h4 class="text-white">Contatos</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://wa.me/5592988048026?text=Olá,+faça+o+seu+pedido!" target="_blank" class="text-white">Watsap-atendente_1</a></li>
+            <li><a href="https://wa.me/5592988048026?text=Olá,+gostaria+de+mais+informações!" target="_blank" class="text-white">Watsap-atendente_2</a></li>
+            <li><a href="https://wa.me/5592988048026?text=Olá,+gostaria+de+mais+informações!" target="_blank" class="text-white">Watsap-atendente_3</a></li>
+            <li><a href="https://wa.me/5592988048026?text=Olá,+gostaria+de+mais+informações!" target="_blank" class="text-white">Watsap-atendente_4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="altnav" class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <img id="imagem" class="bd-placeholder-img card-img-top" width="200" height="200" src="./sabores_do_norte.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+      </a>
+
+      <img id="imagem2" src="./Sabores_do_Nortes.png" width="700px" alt="">
+
+      <button class="navbar-toggler btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle bg-white text-dark fw-bold" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu Açaiteria e Pizzaria
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item bg-primary fw-bold" href="index.html">Açai Frozen</a></li>
+            <!--<li><a class="dropdown-item bg-warning fw-bold" href="pagina_sucos.html">Sucos Naturais</a></li>-->
+            <li><a class="dropdown-item bg-success fw-bold" href="pagina_sanduiches.html">Sanduiches</a></li>
+            <li><a class="dropdown-item bg-info fw-bold" href="pagina_pizzas.html">Pizzas</a></li>
+          </ul>
+      </div> 
+  </div>
+</header>
+
+<!--Seção do carrosel de imagens-->
+<section>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="./carousel-item active">
+        <img src="suco_acerola.jpeg" class="d-block w-100" alt="..." class="mh-100" style="width: 100px; height: 500px;">
+      </div>
+      <div class="carousel-item">
+        <img src="./suco_tapereba.jpeg" class="d-block w-100" alt="..." class="mh-100" style="width: 100px; height: 500px;">
+      </div>
+      <div class="carousel-item">
+        <img src="./suco_cana.jpg" class="d-block w-100" alt="..." class="mh-100" style="width: 100px; height: 500px;">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <h1 class="fw-light text-decoration-underline">Sucos Naturais</h1>
+        <p id="texto2" class="lead text-dark">Na nossa açaiteria, além do delicioso açaí 100% natural e cremoso, 
+          você também encontra uma variedade incrível de sucos refrescantes! Feitos com frutas selecionadas, 
+          nossos sucos são a escolha perfeita para quem busca sabor e refrescância. Experimente combinações 
+          irresistíveis como laranja com acerola, abacaxi com hortelã, maracujá, morango e muitas outras opções. 
+          Peça do jeito que preferir e aproveite cada gole!</p>
+        <!--<p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>-->
+        
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./fresh-lime-juice-5590739_1280.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p id="texto2" class="card-text ">Refrescante e surpreendente, nosso suco de limão com canela combina o 
+                azedinho do limão com o toque aromático e levemente picante da canela. Uma bebida deliciosa e revigorante, 
+                perfeita para quem busca sabor e benefícios naturais em cada gole! Experimente esse sabor! </p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                <!--<small class="text-muted">9 mins</small>-->
+                <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 15,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./laranjada.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p id="texto2" class="card-text">Nossa laranjada é feita com laranjas frescas e selecionadas, 
+                garantindo um sabor naturalmente doce e refrescante. Perfeita para hidratar e revigorar, é 
+                uma excelente fonte de vitamina C. Experimente pura ou com um toque especial de hortelã!
+                Ideal para qualquer momento do dia!
+             </p>
+              <div class="d-flex justify-content-between align-items-center">
+              
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 15,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./carrot-juice-1623157_1280.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p id="texto2" class="card-text">Nosso suco de cenoura é leve, nutritivo e cheio de benefícios para a saúde! 
+                Feito com cenouras frescas, é rico em vitaminas e antioxidantes, ajudando na imunidade e na saúde da pele. 
+                Pode ser combinado com laranja ou outros ingredientes para um toque especial. 
+             </p>
+              <div class="d-flex justify-content-between align-items-center">
+             
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 15,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./suco_abacaxi.jpeg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p class="card-text">Nosso suco de abacaxi é puro frescor e sabor tropical! 
+                Feito com abacaxis selecionados, é naturalmente doce e refrescante, 
+                perfeito para hidratar e revigorar. Além de delicioso, é rico em 
+                vitaminas e auxilia na digestão. Experimente puro ou com um toque de hortelã ou hortelã! </p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 10,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./suco_acerola.jpeg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p class="card-text">Nosso suco de acerola é uma explosão de vitamina 
+                C e frescor! Feito com acerolas selecionadas, tem um sabor levemente 
+                azedinho e super refrescante. Perfeito para fortalecer a imunidade e 
+                revigorar o corpo. Experimente puro ou com um toque de laranja para um 
+                sabor ainda mais especial! </p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 15,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./suco_manga.jpeg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p class="card-text">Nosso suco de manga é cremoso, doce e irresistível! Feito 
+                com mangas selecionadas, traz um sabor tropical marcante e refrescante. 
+                Rico em vitaminas e antioxidantes, é perfeito para qualquer momento do dia. 
+                Experimente puro ou com um toque de limão para um contraste especial! </p>
+              <div class="d-flex justify-content-between align-items-center">
+               
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 10,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./suco_tapereba.jpeg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p class="card-text">Nosso suco de taperebá é a escolha perfeita para quem ama 
+                um sabor autêntico e tropical! Refrescante e levemente ácido, é feito 
+                com frutas selecionadas para garantir o máximo de frescor e qualidade. 
+                Rico em vitaminas e antioxidantes, é uma explosão de sabor a cada gol. 
+                Experimente e sinta o gosto da natureza amazônica!</p>
+              <div class="d-flex justify-content-between align-items-center">
+               
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 15,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./suco_goiaba.jpeg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p class="card-text">Nosso suco de goiaba é cremoso, aromático e cheio de sabor! 
+                Feito com goiabas selecionadas, é rico em vitaminas e antioxidantes, ajudando 
+                na imunidade e na saúde da pele. Refrescante e naturalmente doce, é perfeito 
+                para qualquer momento do dia. Experimente puro ou com um toque de limão para 
+                um sabor ainda mais especial!</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 10,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./suco_cana.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p class="card-text">Nosso caldo de cana é puro, fresco e naturalmente doce! 
+                Extraído na hora, ele é refrescante e energético, perfeito para revigorar 
+                o seu dia. Rico em nutrientes e sem conservantes, pode ser apreciado puro ou 
+                combinado com limão ou + + para um toque especial. Experimente essa delícia! 
+                Faça logo o seu pedido com um de nosos atendentes!  </p>
+              <div class="d-flex justify-content-between align-items-center">
+               
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 15,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<section class="d-flex justify-content-center align-items-center">
+  <form  class="modal-lg w-75">
+    <div class="mb-3">
+      <h2>Fale Conosco</h2>
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+    </div>
+    <div class="mb-3">
+        <label for="mensagem" class="form-label">Mensagem</label>
+        <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form></section>
+  
+      <hr class="my-5">
+      
+    <div class="d-flex justify-content-center align-items-center">
+      <!-- Mapa do Google Centralizado -->
+      <div  style="margin-bottom: 20px;">
+        <h3>Como Chegar</h3>
+      <p>Veja abaixo o mapa para nos encontrar:</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15943.96815420407!2d-54.96290968974933!3d-2.509483009335334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92885284fb3ebf99%3A0xcb08442fee6790c3!2sAlter%20do%20Ch%C3%A3o%2C%20Santar%C3%A9m%20-%20PA!5e0!3m2!1spt-BR!2sbr!4v1740254211525!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  
+  </div>
+  
+  
+  <footer style="background-color: #333; color: #fff; padding: 20px 0;" class="text-muted py-5 bg-dark">
+    <div id="texto_responsivo" style="max-width: 1200px; margin: 0 auto; padding: 0 15px;">
+      <!-- Informações de Contato -->
+      <div style="margin-bottom: 20px;" class="text-white">
+          <h3><strong>Sabor do Norte </strong></h3>
+          <p><hr>Endereço: Rua da paz, 25 - Manaus, AM - CEP 00000-000</p>
+          <p>Email: josel6449@gmail.com | Telefone: (92) 98804-8026 <hr></p>
+      </div>
+    </div>
+  
+    <div class="container text-white">
+      <p class="float-end mb-1">
+        <a class="float-end mb-1 bg-primary text-white btn" href="#">topo</a>
+      </p>
+    </div><br><br>
+    
+    <!-- Direitos Autorais -->
+      <div class="centralizar">
+        <p>&copy; 2025 Sabor do Norte. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jose Lopes">
+    <meta name="generator" content="Hugo 0.84.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Açaiteria</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      #imagem {
+        border-radius: 100%;
+      }
+
+      #texto1 {
+        text-align: justify;
+      }
+
+      #texto2 {
+        text-align: justify;
+      }
+
+    html {
+        margin: 230px 0px 0px 0px;
+    }
+
+    #altnav {
+      height: 260px;
+    }
+
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header class="fixed-top">
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <!-- Links Úteis -->
+          <h4 class="text-white">Quem somos?</h4>
+          <p id="texto1" class="text-white">Nossa açaiteria oferece o melhor açaí da região, 
+            sempre fresco e cremoso! Contamos com um ambiente aconchegante e um atendimento 
+            gentil para garantir a melhor experiência. Além do tradicional açaí na tigela, 
+            servimos diversas combinações com frutas, coberturas e acompanhamentos deliciosos. 
+            Venha nos visitar e se deliciar! </p>
+        </div>
+        <!-- Redes Sociais -->
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contatos para delivery</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://wa.me/5592988048026?text=Olá,+faça+o+seu+pedido!" target="_blank" class="text-white">Watsap-atendente_1</a></li>
+            <li><a href="https://wa.me/5592988048026?text=Olá,+gostaria+de+mais+informações!" target="_blank" class="text-white">Watsap-atendente_2</a></li>
+            <li><a href="https://wa.me/5592988048026?text=Olá,+gostaria+de+mais+informações!" target="_blank" class="text-white">Watsap-atendente_3</a></li>
+            <li><a href="https://wa.me/5592988048026?text=Olá,+gostaria+de+mais+informações!" target="_blank" class="text-white">Watsap-atendente_4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="altnav" class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container"> 
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <img id="imagem" class="bd-placeholder-img card-img-top" width="200" height="200" src="./sabores_do_norte.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+      </a>
+      <!--<h1 class="titulo_central">Sabor do Norte</h1>-->
+      <img id="imagem2" src="./Sabores_do_Nortes.png" width="700px" alt="">
+
+      <button class="navbar-toggler btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle bg-white text-dark fw-bold" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu Açaiteria e Pizzaria
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <!--<li><a class="dropdown-item bg-primary fw-bold" href="index.html">Açai Frozen</a></li>-->
+          <li><a class="dropdown-item bg-warning fw-bold" href="pagina_sucos.html">Sucos Naturais</a></li>
+          <li><a class="dropdown-item bg-success fw-bold" href="pagina_sanduiches.html">Sanduiches</a></li>
+          <li><a class="dropdown-item bg-info fw-bold" href="pagina_pizzas.html">Pizzas</a></li>
+        </ul>
+
+      </div> 
+  </div>
+</header>
+<!--Seção do carrosel de imagens-->
+<section>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./tijelas7.jpeg" class="d-block w-100" alt="..." class="mh-100" style="width: 100px; height: 500px;">
+      </div>
+      <div class="carousel-item">
+        <img src="./tijelas5.jpeg" class="d-block w-100" alt="..." class="mh-100" style="width: 100px; height: 500px;">
+      </div>
+      <div class="carousel-item">
+        <img src="./tijelas8.jpeg" class="d-block w-100" alt="..." class="mh-100" style="width: 100px; height: 500px;">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<main>
+  <section class="py-5 text-center container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <h1 class="fw-light text-decoration-underline text-dark">Açai Frozer</h1>
+        <p id="texto2" class="lead text-dark">Na nossa açaiteria você encontra açaí 100% natural, 
+            cremoso e irresistível! Temos opções para todos os gostos: açaí na tigela, 
+            copos personalizados, combinados com frutas frescas, leite em pó, granola, 
+            leite condensado e muito mais. 
+            Escolha seus toppings favoritos e aproveite cada colherada! </p>
+        <!--<p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>-->
+        
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./frozen_acai4 - Copia.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p id="texto2" class="card-text ">O nosso açaí na tigela é perfeito para quem ama sabor e energia! 
+                Feito com açaí 100% natural e ultra cremoso, ele pode ser combinado com frutas frescas, 
+                granola, leite em pó, leite condensado e uma variedade de coberturas deliciosas. 
+                Escolha sua combinação favorita!</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 35,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./frozen_acai5.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p id="texto2" class="card-text">Nosso açaí com frutas é a combinação perfeita de sabor e frescor! 
+                Além do açaí cremoso e 100% natural, você pode escolher entre morango, banana, kiwi, 
+                manga e outras frutas deliciosas para deixar sua experiência ainda mais nutritiva e refrescante. 
+                Experimente essa explosão de sabores! </p>
+              <div class="d-flex justify-content-between align-items-center">
+  
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 20,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./frozer_acai6.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p id="texto2" class="card-text">O açaí com banana é a combinação perfeita de cremosidade e energia! Nosso açaí 100% natural 
+                é servido com bananas frescas, garantindo um sabor equilibrado e nutritivo. Ideal para quem busca uma opção 
+                deliciosa e revigorante a qualquer hora do dia! Venha provar essa delícia! </p>
+              <div class="d-flex justify-content-between align-items-center">
+  
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 25,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./tijelas1.jpeg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p class="card-text">Nosso açaí com granola é a combinação perfeita de 
+                sabor e crocância! Feito com açaí 100% natural e ultra cremoso, ele 
+                ganha um toque especial com a granola, trazendo mais textura e energia 
+                para o seu dia. Uma opção deliciosa e nutritiva para qualquer momento! </p>
+              <div class="d-flex justify-content-between align-items-center">
+  
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 25,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./tijelas8.jpeg
+            " role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p class="card-text">Nosso açaí com frutas frescas é a combinação perfeita 
+                de cremosidade e refrescância! Feito com açaí 100% natural, ele ganha ainda 
+                mais sabor com morango, banana, manga, kiwi e outras frutas selecionadas. 
+                Uma opção nutritiva e deliciosa para revigorar seu dia! </p>
+              <div class="d-flex justify-content-between align-items-center">
+              
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 25,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./tijelas3.jpeg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p class="card-text">Nosso açaí com frutas e sensações é a combinação 
+                perfeita de sabor, energia e nutrientes! Feito com açaí 100% natural, 
+                é acompanhado de frutas frescas como banana, morango e manga, além 
+                de sementes como chia, linhaça e girassol.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 25,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./tijelas7.jpeg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p class="card-text">Nosso Açaí Mix é a escolha perfeita para quem quer uma 
+                experiência completa e deliciosa! Feito com açaí 100% natural e ultra cremoso, 
+                vem acompanhado de uma combinação especial de frutas frescas, granola, leite em 
+                pó, castanhas e outras coberturas incríveis. Uma explosão de sabor, energia e 
+                nutrição em cada colherada!</p>
+              <div class="d-flex justify-content-between align-items-center">
+               
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 30,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./tijelas5.jpeg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p class="card-text">O Açaí Mix com frutas é uma explosão de sabor e frescor! 
+                Com açaí 100% natural e cremoso, ele é combinado com frutas frescas como 
+                morango, banana, kiwi e manga, além de outras coberturas como granola e 
+                castanhas para dar um toque crocante. Uma opção deliciosa e cheia de energia 
+                para qualquer momento do dia! </p>
+              <div class="d-flex justify-content-between align-items-center">
+              
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 35,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./tijelas6.jpeg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+            <div class="card-body">
+              <p class="card-text">O Açaí Mix Simples é uma opção prática e deliciosa 
+                para quem busca o sabor puro do açaí. Feito com açaí 100% natural e 
+                cremoso, é servido com uma combinação leve de granola ou frutas, 
+                garantindo uma experiência refrescante e energizante. Simples, 
+                mas irresistível! Venha fazer seu pedido e se deliciar desse manjar dos deuses!
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+               
+                  <!--Tabela de preços-->
+                  <table class="table-primary">
+                    <tr>
+                        <td class="table-primary fw-bold fs-3">R$ 20,00</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<section class="d-flex justify-content-center align-items-center">
+<form  class="modal-lg w-75">
+  <div class="mb-3">
+    <h2>Fale Conosco</h2>
+      <label for="nome" class="form-label">Nome</label>
+      <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+  </div>
+  <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+  </div>
+  <div class="mb-3">
+      <label for="mensagem" class="form-label">Mensagem</label>
+      <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form></section>
+
+    <hr class="my-5">
+    
+  <div class="d-flex justify-content-center align-items-center">
+    <!-- Mapa do Google Centralizado -->
+    <div  style="margin-bottom: 20px;">
+      <h3>Como Chegar</h3>
+    <p>Veja abaixo o mapa para nos encontrar:</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15943.96815420407!2d-54.96290968974933!3d-2.509483009335334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92885284fb3ebf99%3A0xcb08442fee6790c3!2sAlter%20do%20Ch%C3%A3o%2C%20Santar%C3%A9m%20-%20PA!5e0!3m2!1spt-BR!2sbr!4v1740254211525!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+</div>
+
+
+<footer style="background-color: #333; color: #fff; padding: 20px 0;" class="text-muted py-5 bg-dark">
+  <div id="texto_responsivo" style="max-width: 1200px; margin: 0 auto; padding: 0 15px;">
+    <!-- Informações de Contato -->
+    <div style="margin-bottom: 20px;" class="text-white">
+        <h3><strong>Sabor do Norte </strong></h3>
+        <p><hr>Endereço: Rua da paz, 25 - Manaus, AM - CEP 00000-000</p>
+        <p>Email: josel6449@gmail.com | Telefone: (92) 98804-8026 <hr></p>
+    </div>
+  </div>
+
+  <div class="container text-white">
+    <p class="float-end mb-1">
+      <a class="float-end mb-1 bg-primary text-white btn" href="#">topo</a>
+    </p>
+  </div><br><br>
+  
+  <!-- Direitos Autorais -->
+    <div class="centralizar">
+      <p>&copy; 2025 Sabor do Norte. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+ 
+  </body>
+</html>
